@@ -15,8 +15,8 @@
 
 ### Links
 
-- Solution URL: [](https://github.com/minahopgood/article-preview-component)
-- Live Site URL: [](https://minahopgood.github.io/article-preview-component/)
+- Solution URL: [Solution](https://github.com/minahopgood/article-preview-component)
+- Live Site URL: [Live site](https://minahopgood.github.io/article-preview-component/)
 
 ## My process
 
