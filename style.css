@@ -1,0 +1,170 @@
+* {
+  font-family: "Manrope", serif;
+  font-weight: 500;
+  font-size: 13px;
+  width: 20rem;
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: hsl(210, 46%, 95%);
+  padding: 0;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.drawers {
+  margin-top: 2rem;
+  margin-bottom: -0.2rem;
+  border-radius: 1rem 1rem 0 0;
+  height: 11rem;
+  object-fit: cover;
+  padding: 0;
+}
+
+.info,
+.who {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.tagline {
+  font-size: 1rem;
+  width: 16rem;
+  padding: 2rem 2rem 0rem 2rem;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+}
+.description {
+  font-size: 0.8rem;
+  width: 16rem;
+  padding: 1rem 2rem;
+  color: hsl(214, 17%, 51%);
+}
+
+.who {
+  display: flex;
+  flex-direction: row;
+  border-radius: 0 0 1rem 1rem;
+}
+.profile-pic {
+  height: 2.5rem;
+  width: 2.5rem;
+  object-fit: cover;
+  border-radius: 100%;
+  padding: 1rem;
+  margin: 0;
+  margin-left: 1.5rem;
+}
+.michelle {
+  height: 3.5rem;
+  width: 9rem;
+  padding: 1rem 0.5rem;
+  margin: 0;
+}
+.name,
+.date {
+  margin: 0;
+  padding: 0;
+  font-size: 0.7rem;
+}
+.name {
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+}
+.date {
+  color: hsl(214, 17%, 51%);
+}
+
+.shareDown {
+  height: 0.7em;
+  width: auto;
+  object-fit: cover;
+  padding: 0.5rem;
+  margin: 0;
+  background-color: hsl(210, 46%, 95%);
+  border-radius: 100%;
+  overflow: visible;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+/*share icon popup */
+#sharePopUp {
+  background-color: hsl(217, 19%, 35%);
+  display: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: stretch;
+  border-radius: 0 0 1rem 1rem;
+  z-index: 5;
+  padding-bottom: 1.1rem;
+  padding-top: 1.1rem;
+}
+.socialMedia {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+}
+.socialMedia:hover {
+  height: 1.2rem;
+  width: auto;
+}
+.shareAction {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: hsl(212, 23%, 69%);
+  font-weight: 600;
+  font-size: 0.7rem;
+  margin-left: 2rem;
+}
+
+.shareUp {
+  height: 0.7rem;
+  width: auto;
+  padding: 0.5rem;
+  margin: 0;
+  background-color: hsl(214, 17%, 51%);
+  border-radius: 100%;
+  overflow: visible;
+  align-self: center;
+  margin-right: 2rem;
+  margin-left: 3rem;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) {
+  * {
+    margin: auto;
+  }
+  body {
+    display: flex;
+    width: 50rem;
+    height: 20rem;
+    margin: auto;
+    box-shadow: 10px 5px 5px lightgrey;
+    /* overflow: hidden; */
+    /* come back to fix box shadow */
+  }
+  .info {
+    width: 55rem;
+  }
+  .drawers {
+    height: 20rem;
+    margin: 0;
+    border-radius: 1rem 0 0 1rem;
+  }
+  #whoIsMichelle {
+    height: 5rem;
+    grid-area: 2 / 3 / 3 / 4;
+    /* flex-direction: column; */
+  }
+
+  #sharePopUp {
+    width: 20rem;
+    border-radius: 1rem;
+  }
+}
